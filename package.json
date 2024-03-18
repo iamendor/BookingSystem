@@ -1,0 +1,19 @@
+{
+  "name": "booking",
+  "version": "0.0.1",
+  "description": "A booking system",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "apps/server",
+    "apps/web/admin",
+    "apps/web/client",
+    "shared/types"
+  ],
+  "keywords": [
+    "booking"
+  ],
+  "author": "iamendor",
+  "license": "ISC"
+}
